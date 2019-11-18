@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
-import GitHub from '../images/GitHub-Mark-120px-plus.png'
 
 const NavBar = () => {
   return (
     <nav>
       <section className="top-bar">
-        <img src={GitHub} />
+        <i class="fab fa-github"></i>
         <h1>Octodex</h1>
         <ul className="left-bar">
           <li>Home</li>

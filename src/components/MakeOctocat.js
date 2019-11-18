@@ -13,43 +13,37 @@ const cats = [
     imageUrl: grinchtocat,
     imageAlt: 'Grinch Cat',
     catName: 'Grinchtocat',
-    catNumber: '#111',
-    userName: 'Celeste'
+    catNumber: '#111'
   },
   {
     imageUrl: hanukkat,
     imageAlt: 'Hanuk Kat',
     catName: 'Hanukkat',
-    catNumber: '#125',
-    userName: 'Celeste'
+    catNumber: '#125'
   },
   {
     imageUrl: saintnictocat,
     imageAlt: 'Saint Nic Cat',
     catName: 'Saintnictocat',
-    catNumber: '#134',
-    userName: 'Celeste'
+    catNumber: '#134'
   },
   {
     imageUrl: saintnicktocat,
     imageAlt: 'Saint Nick Cat',
     catName: 'Saintnicktocat',
-    catNumber: '#64',
-    userName: 'Celeste'
+    catNumber: '#64'
   },
   {
     imageUrl: snowtocatfinal,
     imageAlt: 'Snow Cat',
     catName: 'Snowtocat',
-    catNumber: '#137',
-    userName: 'Celeste'
+    catNumber: '#137'
   },
   {
     imageUrl: thanktocat,
     imageAlt: 'Thanksgiving Cat',
     catName: 'Thanktocat',
-    catNumber: '#62',
-    userName: 'Celeste'
+    catNumber: '#62'
   }
 ]
 
@@ -63,7 +57,6 @@ const MakeOctocat = () => {
             imageAlt={cat.imageAlt}
             catName={cat.catName}
             catNumber={cat.catNumber}
-            userName={cat.userName}
           />
         )
       })}
