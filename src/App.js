@@ -1,10 +1,16 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import MakeOctocat from './components/MakeOctocat'
+import NavBar from './components/NavBar'
 
-class App extends Component {
-  render() {
-    return <HelloWorld />
-  }
+const App = () => {
+  return (
+    <section>
+      <NavBar />
+      <main>
+        <MakeOctocat />
+      </main>
+    </section>
+  )
 }
 
 export default App
